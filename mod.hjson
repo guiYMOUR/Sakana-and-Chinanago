@@ -1,0 +1,8 @@
+displayName: ~SAKANA~
+name:"sakana"
+author: guiY
+main: "sakana.sakana"
+description: "莉可丽丝的弹弹弹\n有点上头就做了，之前一直忘了"
+version: 1.0
+java: true
+minGameVersion: 138
