@@ -21,6 +21,7 @@ public class MBlocks {
             UP = 0;
             dt = 0.002f;
             ryt = 6;
+            s = MSounds.sakana;
         }};
 
         chinanago = new Main("chinanago"){{
@@ -29,6 +30,7 @@ public class MBlocks {
             LEFT = 6;
             UP = 15;
             scl = 4;
+            s = MSounds.chinanago;
         }};
     }
 }

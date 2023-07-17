@@ -2,6 +2,7 @@ package sakana;
 
 import sakana.contents.MBlocks;
 import mindustry.mod.*;
+import sakana.contents.MSounds;
 
 public class sakana extends Mod{
     public sakana() {
@@ -14,6 +15,7 @@ public class sakana extends Mod{
     @Override
     public void loadContent(){
 
+        MSounds.load();
         MBlocks.load();
     }
 

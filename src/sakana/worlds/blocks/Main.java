@@ -1,12 +1,14 @@
 package sakana.worlds.blocks;
 
 import arc.Core;
+import arc.audio.Sound;
 import arc.graphics.g2d.Draw;
 import arc.math.Mathf;
 import arc.scene.ui.layout.Table;
 import arc.util.io.Reads;
 import arc.util.io.Writes;
 import mindustry.gen.Building;
+import mindustry.gen.Sounds;
 import mindustry.graphics.Drawf;
 import mindustry.graphics.Layer;
 import mindustry.world.Block;
@@ -21,6 +23,9 @@ public class Main extends Block {
             ryt = 4;
     public float dt  = 0.005f;
     public float scl = 2;
+
+    public Sound s = Sounds.none;
+    public float v = 3;
 
     public Main(String name) {
         super(name);
@@ -68,6 +73,9 @@ public class Main extends Block {
         public void buildConfiguration(Table table) {
             configure(new int[]{(int) LEFT, (int) UP});
             deselect();
+            if(s == Sounds.none) return;
+            s.stop();
+            s.at(x, y, 1, v);
         }
 
         @Override
