@@ -43,11 +43,4 @@ This Mod follows the [MIT LICENSE]. Please read the license document for more in
 
 If you encounter any problems with this Mod, or have suggestions and feedback, please feel free to contact us. You can reach us by creating a GitHub Issue or by emailing us at 172499451@qq.com.
 
-## About the author
-
-This Mod was created by guiYMOUR. You can contact the author in the following ways:
-
-- E-mail: your.email@example.com
-- making: [making user name] (https://github.com/yourusername)
-
 Thank you for using this Mod and hope it adds more fun to your Alien Works gaming experience!
